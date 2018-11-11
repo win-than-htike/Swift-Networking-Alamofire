@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8168B6AA85E2B7A896C355C0 /* Pods_Network_Alamofire_SwiftyJson_SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F999D2C431DE1C679DCB44 /* Pods_Network_Alamofire_SwiftyJson_SDWebImage.framework */; };
 		996B134F219737B100D3814D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B134E219737B100D3814D /* AppDelegate.swift */; };
 		996B1351219737B100D3814D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B1350219737B100D3814D /* ViewController.swift */; };
 		996B1354219737B100D3814D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B1352219737B100D3814D /* Main.storyboard */; };
 		996B1356219737B400D3814D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 996B1355219737B400D3814D /* Assets.xcassets */; };
 		996B1359219737B400D3814D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 996B1357219737B400D3814D /* LaunchScreen.storyboard */; };
+		996B136121973A2500D3814D /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996B136021973A2500D3814D /* NewsTableViewCell.swift */; };
+		99E5992021973DD200D34C4D /* NewsVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99E5991F21973DD200D34C4D /* NewsVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27F999D2C431DE1C679DCB44 /* Pods_Network_Alamofire_SwiftyJson_SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Network_Alamofire_SwiftyJson_SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9A0CBA92022A157DE15A69 /* Pods-Network-Alamofire-SwiftyJson-SDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network-Alamofire-SwiftyJson-SDWebImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Network-Alamofire-SwiftyJson-SDWebImage/Pods-Network-Alamofire-SwiftyJson-SDWebImage.release.xcconfig"; sourceTree = "<group>"; };
 		996B134B219737B100D3814D /* Network-Alamofire-SwiftyJson-SDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network-Alamofire-SwiftyJson-SDWebImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		996B134E219737B100D3814D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		996B1350219737B100D3814D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		996B1355219737B400D3814D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		996B1358219737B400D3814D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		996B135A219737B400D3814D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		996B136021973A2500D3814D /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		99E5991F21973DD200D34C4D /* NewsVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVO.swift; sourceTree = "<group>"; };
+		D7F73B7765D765C0682FEF37 /* Pods-Network-Alamofire-SwiftyJson-SDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Network-Alamofire-SwiftyJson-SDWebImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Network-Alamofire-SwiftyJson-SDWebImage/Pods-Network-Alamofire-SwiftyJson-SDWebImage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8168B6AA85E2B7A896C355C0 /* Pods_Network_Alamofire_SwiftyJson_SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				996B134D219737B100D3814D /* Network-Alamofire-SwiftyJson-SDWebImage */,
 				996B134C219737B100D3814D /* Products */,
+				D6BF8D05E99265B08ECCCEFA /* Pods */,
+				9CE66737A9AF02F3F1746BF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +65,41 @@
 		996B134D219737B100D3814D /* Network-Alamofire-SwiftyJson-SDWebImage */ = {
 			isa = PBXGroup;
 			children = (
+				99E5991E21973DC300D34C4D /* vos */,
 				996B134E219737B100D3814D /* AppDelegate.swift */,
 				996B1350219737B100D3814D /* ViewController.swift */,
 				996B1352219737B100D3814D /* Main.storyboard */,
 				996B1355219737B400D3814D /* Assets.xcassets */,
 				996B1357219737B400D3814D /* LaunchScreen.storyboard */,
 				996B135A219737B400D3814D /* Info.plist */,
+				996B136021973A2500D3814D /* NewsTableViewCell.swift */,
 			);
 			path = "Network-Alamofire-SwiftyJson-SDWebImage";
+			sourceTree = "<group>";
+		};
+		99E5991E21973DC300D34C4D /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				99E5991F21973DD200D34C4D /* NewsVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		9CE66737A9AF02F3F1746BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F999D2C431DE1C679DCB44 /* Pods_Network_Alamofire_SwiftyJson_SDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6BF8D05E99265B08ECCCEFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7F73B7765D765C0682FEF37 /* Pods-Network-Alamofire-SwiftyJson-SDWebImage.debug.xcconfig */,
+				5E9A0CBA92022A157DE15A69 /* Pods-Network-Alamofire-SwiftyJson-SDWebImage.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 996B135D219737B400D3814D /* Build configuration list for PBXNativeTarget "Network-Alamofire-SwiftyJson-SDWebImage" */;
 			buildPhases = (
+				E02E73CB28FA092FAD0CD053 /* [CP] Check Pods Manifest.lock */,
 				996B1347219737B100D3814D /* Sources */,
 				996B1348219737B100D3814D /* Frameworks */,
 				996B1349219737B100D3814D /* Resources */,
+				67F5A5C336B4FD548CB05FFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +170,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67F5A5C336B4FD548CB05FFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Network-Alamofire-SwiftyJson-SDWebImage/Pods-Network-Alamofire-SwiftyJson-SDWebImage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Network-Alamofire-SwiftyJson-SDWebImage/Pods-Network-Alamofire-SwiftyJson-SDWebImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E02E73CB28FA092FAD0CD053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Network-Alamofire-SwiftyJson-SDWebImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		996B1347219737B100D3814D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				996B1351219737B100D3814D /* ViewController.swift in Sources */,
+				99E5992021973DD200D34C4D /* NewsVO.swift in Sources */,
 				996B134F219737B100D3814D /* AppDelegate.swift in Sources */,
+				996B136121973A2500D3814D /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +365,7 @@
 		};
 		996B135E219737B400D3814D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7F73B7765D765C0682FEF37 /* Pods-Network-Alamofire-SwiftyJson-SDWebImage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +384,7 @@
 		};
 		996B135F219737B400D3814D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E9A0CBA92022A157DE15A69 /* Pods-Network-Alamofire-SwiftyJson-SDWebImage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
